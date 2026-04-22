@@ -63,12 +63,14 @@ Le routeur assure le relais DHCP via `ip helper-address` sur :
 
 L’interface G0/1 (192.168.40.1) permet la communication avec le serveur.
 
-📸 **Preuve configuration relay**
+**Preuve configuration relay**
 ![DHCP Relay](preuves/dhcp-relay.png)
 
-📸 **Preuve attribution IP**
-![DHCP](preuves/dhcp.png)
-
+**Preuve attribution IP**
+![DHCP](preuves/dhcp-pool.png)
+![DHCP](preuves/dhcp-pc-admin.png)
+![DHCP](preuves/dhcp-pc-tech.png)
+![DHCP](preuves/dhcp-pc-invite.png)
 ---
 
 ### 🔹 NAT (PAT)
@@ -80,7 +82,7 @@ Le NAT (PAT) permet aux VLAN d’accéder au réseau externe.
 - ACL : réseaux autorisés
 - NAT overload configuré
 
-📸 **Preuve NAT**
+**Preuve NAT**
 ![NAT](preuves/nat.png)
 
 📸 **Preuve accès Internet**
@@ -93,7 +95,7 @@ Le NAT (PAT) permet aux VLAN d’accéder au réseau externe.
 - ACL mise en place
 - Blocage VLAN GUEST → ADMIN
 
-📸 **Preuve blocage**
+**Preuve blocage**
 ![ACL](preuves/ping-bloque.png)
 
 ---
