@@ -102,10 +102,10 @@ Le NAT (PAT) permet aux VLAN d’accéder au réseau externe.
 
 ## Tests
 
-✔ Attribution IP automatique  
-✔ Communication inter-VLAN  
-✔ Accès réseau externe  
-✔ Blocage respecté  
+Attribution IP automatique  
+Communication inter-VLAN  
+Accès réseau externe  
+Blocage respecté  
 
 ---
 
